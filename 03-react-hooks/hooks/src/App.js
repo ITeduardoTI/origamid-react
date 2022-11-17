@@ -7,7 +7,9 @@ import React from "react";
 // import UseEffect01 from "./0302-useEffect/useEffect01";
 // import UseEffect02 from "./0302-useEffect/useEffect02";
 // import UseEffect03 from "./0302-useEffect/useEffect03";
-import ExUseEffect from "./0302.1-ex01-useEffect/ExUseEffect";
+// import ExUseEffect from "./0302.1-ex01-useEffect/ExUseEffect";
+// import UseRef01 from "./0303-useRef/UseRef01";
+import UseRef02 from "./0303-useRef/UseRef02";
 
 function App() {
   return (
@@ -18,7 +20,9 @@ function App() {
       {/* <UseEffect01 /> */}
       {/* <UseEffect02 /> */}
       {/* <UseEffect03 /> */}
-      <ExUseEffect />
+      {/* <ExUseEffect /> */}
+      {/* <UseRef01 /> */}
+      <UseRef02 />
     </div>
   );
 }
