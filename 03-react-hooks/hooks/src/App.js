@@ -9,7 +9,9 @@ import React from "react";
 // import UseEffect03 from "./0302-useEffect/useEffect03";
 // import ExUseEffect from "./0302.1-ex01-useEffect/ExUseEffect";
 // import UseRef01 from "./0303-useRef/UseRef01";
-import UseRef02 from "./0303-useRef/UseRef02";
+// import UseRef02 from "./0303-useRef/UseRef02";
+// import UseMemo01 from "./0304-useMemo-e-useCallback/UseMemo01";
+import UseCallback01 from "./0304-useMemo-e-useCallback/UseCallback01";
 
 function App() {
   return (
@@ -22,7 +24,9 @@ function App() {
       {/* <UseEffect03 /> */}
       {/* <ExUseEffect /> */}
       {/* <UseRef01 /> */}
-      <UseRef02 />
+      {/* <UseRef02 /> */}
+      {/* <UseMemo01 /> */}
+      <UseCallback01 />
     </div>
   );
 }
