@@ -1,7 +1,7 @@
 import React from "react";
 import Items from "./Items";
 
-const Produtos = () => {  
+const Produtos = () => {
   const [dados, setDados] = React.useState(null);
   const [carregando, setCarregando] = React.useState(null);
 
