@@ -17,10 +17,10 @@ const Produtos = () => {
   }
 
   return (
-    <div>
-      <button onClick={handleClick}>Tablet</button>
-      <button onClick={handleClick}>Smartphone</button>
-      <button onClick={handleClick}>Notebook</button>
+    <div >
+      <button style={{ margin: '.5rem' }} onClick={handleClick}>Tablet</button>
+      <button style={{ margin: '.5rem' }} onClick={handleClick}>Smartphone</button>
+      <button style={{ margin: '.5rem' }} onClick={handleClick}>Notebook</button>
       {carregando && <p>Carregando...</p>}
       {!carregando && dados && <Items dados={dados} />}
     </div>
