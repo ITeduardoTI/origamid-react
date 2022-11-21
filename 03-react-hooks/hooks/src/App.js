@@ -13,7 +13,8 @@ import React from "react";
 // import UseMemo01 from "./0304-useMemo-e-useCallback/UseMemo01";
 // import UseCallback01 from "./0304-useMemo-e-useCallback/UseCallback01";
 // import UseContext01 from "./0305-useContext/UseContext01";
-import UseContext02 from "./0305.1-ex01-useContext/UseContext02";
+// import UseContext02 from "./0305.1-ex01-useContext/UseContext02";
+import CustomHooks from "./0306-custom-hooks/CustomHooks";
 
 function App() {
   return (
@@ -30,7 +31,8 @@ function App() {
       {/* <UseMemo01 /> */}
       {/* <UseCallback01 /> */}
       {/* <UseContext01 /> */}
-      <UseContext02 />
+      {/* <UseContext02 /> */}
+      <CustomHooks />
     </div>
   );
 }
