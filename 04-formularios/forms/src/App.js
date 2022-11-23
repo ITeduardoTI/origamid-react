@@ -3,7 +3,11 @@
 // import ExInput from "./0401.1-ex01-input/ExInput";
 // import Textarea from "./0402-textarea/Textarea";
 // import Select from "./0403-select/Select";
-import Radio from "./0404-radio/Radio";
+// import Radio from "./0404-radio/Radio";
+// import Checkbox1 from "./0405-checkbox/Checkbox1";
+// import CheckboxMultiplo from "./0405-checkbox/CheckboxMultiplo";
+// import ExCheckbox from "./0405-checkbox/ExCheckbox";
+import Input from "./0406-componente-input/Input";
 
 function App() {
   return (
@@ -13,7 +17,11 @@ function App() {
       {/* <ExInput /> */}
       {/* <Textarea /> */}
       {/* <Select /> */}
-      <Radio />
+      {/* <Radio /> */}
+      {/* <Checkbox1 /> */}
+      {/* <CheckboxMultiplo /> */}
+      {/* <ExCheckbox /> */}
+      <Input />
     </div>
   );
 }
