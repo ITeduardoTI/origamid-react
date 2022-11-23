@@ -7,7 +7,8 @@
 // import Checkbox1 from "./0405-checkbox/Checkbox1";
 // import CheckboxMultiplo from "./0405-checkbox/CheckboxMultiplo";
 // import ExCheckbox from "./0405-checkbox/ExCheckbox";
-import Input from "./0406-componente-input/Input";
+// import Input from "./0406-componente-input/Input";
+import Validacao from "./0410-validacao/Validacao";
 
 function App() {
   return (
@@ -21,7 +22,8 @@ function App() {
       {/* <Checkbox1 /> */}
       {/* <CheckboxMultiplo /> */}
       {/* <ExCheckbox /> */}
-      <Input />
+      {/* <Input /> */}
+      <Validacao />
     </div>
   );
 }
