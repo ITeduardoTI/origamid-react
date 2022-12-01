@@ -1,7 +1,7 @@
 import React from "react";
 import { Link } from 'react-router-dom';
 // import Head from './Head';
-import HelmetExport, { Helmet } from 'react-helmet';
+import { Helmet } from 'react-helmet';
 
 
 const Home = () => {
